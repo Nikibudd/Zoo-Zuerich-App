@@ -19,3 +19,4 @@
 /API/Zoo-Api/bin/Debug/net8.0
 *.user
 /API/Zoo-Api/Zoo-Api.http
+/.next
