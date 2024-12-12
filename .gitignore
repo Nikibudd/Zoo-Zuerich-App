@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/API/Zoo-Api/.vs/Zoo-Api/FileContentIndex/361b3c04-8401-44b6-8935-0a5ae527f906.vsidx
+/API/Zoo-Api/.vs/Zoo-Api/FileContentIndex/a06ab837-c597-4f6d-a836-402f2d5b6cfd.vsidx
+/API/Zoo-Api/.vs/Zoo-Api/FileContentIndex/a8185689-b6dd-4280-b461-b383619b6137.vsidx
+/API/Zoo-Api/.vs/Zoo-Api/v17/.suo
+/API/Zoo-Api/.vs/Zoo-Api/v17
+/API/Zoo-Api/.vs/Zoo-Api/v17/DocumentLayout.json
+/API/Zoo-Api/obj/Debug/net8.0
+/API/Zoo-Api/obj
+/API/Zoo-Api/Properties
+/package-lock.json
+/API/Zoo-Api/Zoo-Api.sln
+/API/Zoo-Api/Zoo-Api.sln
+/API/Zoo-Api/.vs/Zoo-Api/config
+/API/Zoo-Api/.vs/Zoo-Api/FileContentIndex
+/API/Zoo-Api/bin/Debug/net8.0
+*.user
+/API/Zoo-Api/Zoo-Api.http
