@@ -14,3 +14,8 @@
 /package-lock.json
 /API/Zoo-Api/Zoo-Api.sln
 /API/Zoo-Api/Zoo-Api.sln
+/API/Zoo-Api/.vs/Zoo-Api/config
+/API/Zoo-Api/.vs/Zoo-Api/FileContentIndex
+/API/Zoo-Api/bin/Debug/net8.0
+*.user
+/API/Zoo-Api/Zoo-Api.http
