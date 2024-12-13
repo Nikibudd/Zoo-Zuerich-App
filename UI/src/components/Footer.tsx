@@ -16,9 +16,7 @@ export default function Footer({ elements, setCurrPage, currPage }: { elements: 
                 key={element.link} 
                 className={`
                     relative 
-                    p-4 
-                    group
-                    cursor-pointer
+                    p-4
                 `}
             >
                 {/* Bottom border with transition */}
@@ -29,17 +27,34 @@ export default function Footer({ elements, setCurrPage, currPage }: { elements: 
                     w-full 
                     h-0.5
                     bg-primary-700
-                    opacity-0 
+                    transition-all 
+                    duration-300 
+                    ease-in-out
+                    transform
+                    ${isActive ? 'opacity-100 scale-x-100' : 'opacity-0 scale-x-0 scale-y-50'}
+                `} />
+                
+                {/* Shine effect */}
+                <div className={`
+                    absolute 
+                    bottom-0 
+                    left-0 
+                    w-full 
+                    h-2
+                    bg-gradient-to-t 
+                    from-primary-500/20
+                    to-transparent
+                    opacity-0
                     transition-all 
                     duration-300 
                     ease-in-out
                     transform
                     scale-x-0
-                    group-hover:opacity-50
-                    group-hover:scale-x-100
+                    blur-sm
                     ${isActive ? 'opacity-100 scale-x-100' : ''}
                 `} />
-                
+
+                {/* Navigation Button */}
                 <button 
                     onClick={() => {
                         setCurrPage(element.link)
